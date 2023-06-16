@@ -1,0 +1,22 @@
+CREATE TABLE Gabbys_boutique (id INTEGER Primary Key, name TEXT, Price INTEGER,Avaible INTEGER, Rating INTEGER);
+ 
+ INSERT INTO Gabbys_boutique Values (1, "Hooped earrings", 8, "available", 8.9);
+ INSERT INTO Gabbys_boutique Values (2, "flats", 20, "available", 9.3);
+ INSERT INTO Gabbys_boutique Values (3, "buckled belt", 9, "un-available", 9);
+ INSERT INTO Gabbys_boutique Values (4, "jeans", 34, "available", 10);
+ INSERT INTO Gabbys_boutique Values (5, "flower top", 19, "un-availabale", 8);
+ INSERT INTO Gabbys_boutique Values (6, "boots", 19, "available", 7.5);
+ INSERT INTO Gabbys_boutique Values (7, "rose sandals", 13, "available", 9);
+ INSERT INTO Gabbys_boutique Values (8, "Rhinestone jeans", 49, "available", 10);
+ INSERT INTO Gabbys_boutique Values (9, "rhinestone bracelet", 7, "available",8);
+ INSERT INTO Gabbys_boutique Values (10, "beach hat", 19, "un-available", 8);
+ INSERT INTO Gabbys_boutique Values (11, "cat ring", 3, "un-available", 6);
+ INSERT INTO Gabbys_boutique Values (12, "Summer Top", 23, "available", 9);
+ INSERT INTO Gabbys_boutique Values (13, "Demi Shorts", 23, "available", 10);
+ INSERT INTO Gabbys_boutique Values (14, "Date night Pant", 29, "unavailble", 10);
+ INSERT INTO Gabbys_boutique Values (15, "Date night top", 23,"available",10);
+
+SELECT * FROM Gabbys_boutique ORDER BY price;
+SELECT * FROM Gabbys_boutique WHERE rating <7
+
+SELECT SUM(Rating) from Gabbys_boutique;
