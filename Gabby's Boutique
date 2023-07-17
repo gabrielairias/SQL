@@ -17,6 +17,6 @@ CREATE TABLE Gabbys_boutique (id INTEGER Primary Key, name TEXT, Price INTEGER,A
  INSERT INTO Gabbys_boutique Values (15, "Date night top", 23,"available",10);
 
 SELECT * FROM Gabbys_boutique ORDER BY price;
-SELECT * FROM Gabbys_boutique WHERE rating <7
+SELECT * FROM Gabbys_boutique WHERE rating <7;
 
-SELECT SUM(Rating) from Gabbys_boutique;
+SELECT AVG(Rating) from Gabbys_boutique;
